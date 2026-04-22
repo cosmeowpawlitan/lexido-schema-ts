@@ -1,5 +1,6 @@
 export * from '../models/BookkeepingInner'
 export * from '../models/Exercise'
+export * from '../models/ExerciseContent'
 export * from '../models/Expenditure'
 export * from '../models/ExpenditureSplit'
 export * from '../models/FillInTheBlank'

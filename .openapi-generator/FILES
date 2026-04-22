@@ -13,6 +13,7 @@ index.ts
 middleware.ts
 models/BookkeepingInner.ts
 models/Exercise.ts
+models/ExerciseContent.ts
 models/Expenditure.ts
 models/ExpenditureSplit.ts
 models/FillInTheBlank.ts

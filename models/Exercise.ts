@@ -10,12 +10,14 @@
  * Do not edit the class manually.
  */
 
+import { ExerciseContent } from '../models/ExerciseContent';
 import { QuestionsInner } from '../models/QuestionsInner';
 import { Usability } from '../models/Usability';
 import { HttpFile } from '../http/http';
 
 export class Exercise {
     'meta': { [key: string]: any; };
+    'content': ExerciseContent;
     'kind': string;
     'title': string;
     'usability': Usability;
@@ -32,6 +34,12 @@ export class Exercise {
             "name": "meta",
             "baseName": "meta",
             "type": "{ [key: string]: any; }",
+            "format": ""
+        },
+        {
+            "name": "content",
+            "baseName": "content",
+            "type": "ExerciseContent",
             "format": ""
         },
         {

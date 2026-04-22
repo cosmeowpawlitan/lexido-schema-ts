@@ -4,6 +4,7 @@ import type { Middleware } from '../middleware';
 
 import { BookkeepingInner } from '../models/BookkeepingInner';
 import { Exercise } from '../models/Exercise';
+import { ExerciseContent } from '../models/ExerciseContent';
 import { Expenditure } from '../models/Expenditure';
 import { ExpenditureSplit } from '../models/ExpenditureSplit';
 import { FillInTheBlank } from '../models/FillInTheBlank';

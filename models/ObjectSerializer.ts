@@ -1,5 +1,6 @@
 export * from '../models/BookkeepingInner';
 export * from '../models/Exercise';
+export * from '../models/ExerciseContent';
 export * from '../models/Expenditure';
 export * from '../models/ExpenditureSplit';
 export * from '../models/FillInTheBlank';
@@ -19,6 +20,7 @@ export * from '../models/Usability';
 
 import { BookkeepingInnerClass } from '../models/BookkeepingInner';
 import { Exercise } from '../models/Exercise';
+import { ExerciseContent } from '../models/ExerciseContent';
 import { Expenditure } from '../models/Expenditure';
 import { ExpenditureSplit    , ExpenditureSplitKindEnum   } from '../models/ExpenditureSplit';
 import { FillInTheBlank    , FillInTheBlankKindEnum    } from '../models/FillInTheBlank';
@@ -66,6 +68,7 @@ let enumsMap: Set<string> = new Set<string>([
 let typeMap: {[index: string]: any} = {
     "BookkeepingInner": BookkeepingInnerClass,
     "Exercise": Exercise,
+    "ExerciseContent": ExerciseContent,
     "Expenditure": Expenditure,
     "ExpenditureSplit": ExpenditureSplit,
     "FillInTheBlank": FillInTheBlank,

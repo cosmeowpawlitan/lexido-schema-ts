@@ -5,6 +5,7 @@ import { Observable, of, from } from '../rxjsStub';
 import {mergeMap, map} from  '../rxjsStub';
 import { BookkeepingInner } from '../models/BookkeepingInner';
 import { Exercise } from '../models/Exercise';
+import { ExerciseContent } from '../models/ExerciseContent';
 import { Expenditure } from '../models/Expenditure';
 import { ExpenditureSplit } from '../models/ExpenditureSplit';
 import { FillInTheBlank } from '../models/FillInTheBlank';
