@@ -18,6 +18,7 @@ models/Expenditure.ts
 models/ExpenditureSplit.ts
 models/FillInTheBlank.ts
 models/MCQuestion.ts
+models/NewsComprehensionExercise.ts
 models/ObjectSerializer.ts
 models/OpeningBalance.ts
 models/Option.ts
@@ -31,6 +32,7 @@ models/RequisitionStatus.ts
 models/TrueFalseNotGivenEnum.ts
 models/TrueFalseNotGivenQuestion.ts
 models/Usability.ts
+models/VideoListeningExercise.ts
 models/all.ts
 package.json
 rxjsStub.ts

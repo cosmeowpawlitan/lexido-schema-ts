@@ -5,6 +5,7 @@ export * from '../models/Expenditure';
 export * from '../models/ExpenditureSplit';
 export * from '../models/FillInTheBlank';
 export * from '../models/MCQuestion';
+export * from '../models/NewsComprehensionExercise';
 export * from '../models/OpeningBalance';
 export * from '../models/Option';
 export * from '../models/Point';
@@ -17,6 +18,7 @@ export * from '../models/RequisitionStatus';
 export * from '../models/TrueFalseNotGivenEnum';
 export * from '../models/TrueFalseNotGivenQuestion';
 export * from '../models/Usability';
+export * from '../models/VideoListeningExercise';
 
 import { BookkeepingInnerClass } from '../models/BookkeepingInner';
 import { Exercise } from '../models/Exercise';
@@ -25,6 +27,7 @@ import { Expenditure } from '../models/Expenditure';
 import { ExpenditureSplit    , ExpenditureSplitKindEnum   } from '../models/ExpenditureSplit';
 import { FillInTheBlank    , FillInTheBlankKindEnum    } from '../models/FillInTheBlank';
 import { MCQuestion    , MCQuestionKindEnum     } from '../models/MCQuestion';
+import { NewsComprehensionExercise  , NewsComprehensionExerciseKindEnum        } from '../models/NewsComprehensionExercise';
 import { OpeningBalance  , OpeningBalanceKindEnum   } from '../models/OpeningBalance';
 import { Option } from '../models/Option';
 import { Point, PointKindEnum       } from '../models/Point';
@@ -37,6 +40,7 @@ import { RequisitionStatus } from '../models/RequisitionStatus';
 import { TrueFalseNotGivenEnum } from '../models/TrueFalseNotGivenEnum';
 import { TrueFalseNotGivenQuestion    , TrueFalseNotGivenQuestionKindEnum    } from '../models/TrueFalseNotGivenQuestion';
 import { Usability } from '../models/Usability';
+import { VideoListeningExercise  , VideoListeningExerciseKindEnum        } from '../models/VideoListeningExercise';
 
 /* tslint:disable:no-unused-variable */
 let primitives = [
@@ -55,6 +59,7 @@ let enumsMap: Set<string> = new Set<string>([
     "ExpenditureSplitKindEnum",
     "FillInTheBlankKindEnum",
     "MCQuestionKindEnum",
+    "NewsComprehensionExerciseKindEnum",
     "OpeningBalanceKindEnum",
     "PointKindEnum",
     "PointReason",
@@ -63,6 +68,7 @@ let enumsMap: Set<string> = new Set<string>([
     "RequisitionStatus",
     "TrueFalseNotGivenEnum",
     "TrueFalseNotGivenQuestionKindEnum",
+    "VideoListeningExerciseKindEnum",
 ]);
 
 let typeMap: {[index: string]: any} = {
@@ -73,6 +79,7 @@ let typeMap: {[index: string]: any} = {
     "ExpenditureSplit": ExpenditureSplit,
     "FillInTheBlank": FillInTheBlank,
     "MCQuestion": MCQuestion,
+    "NewsComprehensionExercise": NewsComprehensionExercise,
     "OpeningBalance": OpeningBalance,
     "Option": Option,
     "Point": Point,
@@ -82,6 +89,7 @@ let typeMap: {[index: string]: any} = {
     "Requisition": Requisition,
     "TrueFalseNotGivenQuestion": TrueFalseNotGivenQuestion,
     "Usability": Usability,
+    "VideoListeningExercise": VideoListeningExercise,
 }
 
 type MimeTypeDescriptor = {
